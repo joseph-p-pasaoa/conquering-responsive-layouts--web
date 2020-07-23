@@ -23,16 +23,19 @@ body {
   font-family: sans-serif;
 }
 
-.container--intro-content {
+.container--intro {
+  /* width: 80%; */
+  /* max-width: 750px; */
+  /* margin: 0 auto; */
   background: #23424a;
   color: white;
+  padding: 50px 0;
 }
 
-.intro-content {
-  /* width: 80%; */
-  margin: 0 auto;
-  padding: 50px 1.5rem;
-  max-width: 43.75rem;
+.container--intro,
+.container--more {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
 }
 
 .intro-content h1,
@@ -40,8 +43,8 @@ body {
   width: 50%;
 }
 
-.container--more-content {
+.intro-content,
+.more-content {
   max-width: 43.75rem;
-  padding: 1.5rem;
   margin: 0 auto;
 }
