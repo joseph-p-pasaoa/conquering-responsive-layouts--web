@@ -21,7 +21,7 @@ body {
 .container--hero {
     margin: 0 auto;
     width: 90%;
-    max-width: 43.25rem;
+    max-width: 63.25rem;
     padding: 7rem 2rem;
 }
 
@@ -32,15 +32,16 @@ body {
 h1 {
     margin-bottom: 1.5rem;
 
+    font-size: 3rem;
     font-style: normal;
     font-weight: 900;
 }
 
 p {
-    margin-bottom: 3rem;
-    line-height: 1.5rem;
-    font-size: .9rem;
-    letter-spacing: .02em;
+    margin-bottom: 4rem;
+    line-height: 2rem;
+    font-size: 1.3rem;
+    letter-spacing: .01em;
     font-weight: 400;
 }
 
@@ -51,8 +52,8 @@ button {
     padding: .8em 2.2em;
 
     font-style: normal;
-    font-weight: bold;
-    font-size: .8rem;
+    font-weight: 700;
+    font-size: 1.3rem;
     line-height: 150.19%;
     /* identical to box height, or 32px */
 
