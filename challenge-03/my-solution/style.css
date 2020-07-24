@@ -1,0 +1,63 @@
+/*
+JOSEPH P. PASAOA
+Challenge #3 | Conquering Responsive Layouts
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.background--hero {
+    background-color: #23424a;
+    color: #fff;
+}
+
+.container--hero {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 43.25rem;
+    padding: 7rem 2rem;
+}
+
+.content--hero {
+    width: 78%;
+}
+
+h1 {
+    margin-bottom: 1.5rem;
+
+    font-style: normal;
+    font-weight: 900;
+}
+
+p {
+    margin-bottom: 3rem;
+    line-height: 1.5rem;
+    font-size: .9rem;
+    letter-spacing: .02em;
+    font-weight: 400;
+}
+
+button {
+    background-color: #38CFD9;
+    mix-blend-mode: normal;
+    border-radius: 31.5px;
+    padding: .8em 2.2em;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: .8rem;
+    line-height: 150.19%;
+    /* identical to box height, or 32px */
+
+    letter-spacing: .05em;
+    text-transform: uppercase;
+
+    color: #072A2D;
+}
