@@ -1,15 +1,10 @@
 /* 
-////// For this challenge ///////
-
+FOR THIS CHALLENGE
 - All text is in the text.md file
 
-// Requirements
-1. Refer to the design specs for the
-   overall layout 
-2. The image should line up with
-   the sidebar in the section
-   below
-
+REQUIREMENTS
+1. Refer to the design specs for the overall layout 
+2. The image should line up with the sidebar in the section below
 */
 
 *, *::before, *::after {
@@ -31,6 +26,10 @@ h1 {
     margin-top: 0;
 }
 
+h2 {
+    font-size: 2.25rem;
+}
+
 .container {
     width: 80%;
     max-width: 1100px;
@@ -38,12 +37,8 @@ h1 {
 }
 
 .row {
-    /* display: flex => flex container */
     display: flex;
     justify-content: space-between;
-    
-    /* can't use yet */
-    /* gap: 100px; */
 }
 
 .col {
@@ -88,4 +83,32 @@ h1 {
 .btn:hover,
 .btn:focus {
     opacity: .75; 
+}
+
+.lower {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.leftlight {
+    width: 62%;
+    color: #3a3a3a;
+}
+
+.leftlight h2 {
+    color: #136c72;
+}
+
+.rightdark {
+    width: 32%;
+    background-color: #136c72;
+    color: #fff;
+    text-align: center;
+}
+
+.rightdark p {
+    margin: 0 auto;
+    padding-bottom: 3rem;
+    width: 80%;
 }
