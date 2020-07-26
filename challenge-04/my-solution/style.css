@@ -26,7 +26,7 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.3125rem;
 }
 
 h1 {
@@ -40,16 +40,12 @@ h1 {
 }
 
 .row {
-    /* display: flex => flex container */
     display: flex;
-
-    /* can't use yet */
-    /* gap: 100px; */
 }
 
 .col {
-    /* these are now flex items */
     width: 100%;
+    text-align: center;
 }
 
 .hero {
@@ -80,4 +76,27 @@ h1 {
 .btn:hover,
 .btn:focus {
     opacity: .75; 
+}
+
+.middlelight {
+    padding: 2.5rem 0 3.5rem 0;
+    color: #3a3a3a;
+}
+
+.middlelight .col + .col {
+    margin-left: 1.5rem;
+}
+
+.middlelight h2 {
+    color: #87629a;
+}
+
+.lowerdark {
+    padding: 2.5rem 0;
+    background-color: #136C72;
+    color: #fff;
+}
+
+.lowerdark .col + .col {
+    margin-left: 2rem;
 }
