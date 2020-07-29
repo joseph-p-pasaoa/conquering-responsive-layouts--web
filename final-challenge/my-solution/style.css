@@ -1,0 +1,15 @@
+/*
+JOSEPH P. PASAOA
+Final Challenge | Conquering Responsive Layouts: 21-Day Challenge
+*/
+
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
