@@ -161,7 +161,7 @@ h2.breakdown__title {
     color: #fff;
 }
 
-aside.dark {
+aside {
     margin-bottom: 1rem;
     padding: 2rem;
 
@@ -169,7 +169,7 @@ aside.dark {
     color: #fff;
 }
 
-aside.dark p {
+aside p {
     font-size: 1.125rem;
     line-height: 1.5;
 }
@@ -218,6 +218,47 @@ footer .col:last-of-type ul {
 
     .footer__title {
         font-size: 3.5rem;
+    }
+}
+
+@media (min-width: 700px) {
+    header > .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: .5rem 0;
+    }
+
+    .logo {
+        margin-top: .5rem;
+    }
+
+    nav > .row {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0;
+    }
+
+    .nav__item + .nav__item {
+        margin-left: 1.5rem;
+    }
+
+    .asides {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    aside + aside {
+        margin-left: 1rem;
+    }
+
+    aside {
+        padding: 1rem;
+    }
+
+    aside p {
+        font-size: 1rem;
     }
 }
 
