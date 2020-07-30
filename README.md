@@ -10,4 +10,6 @@ It's less about fighting with the CSS to make a layout responsive, and more abou
 
 Author, [Kevin Powell](https://www.kevinpowell.co/).
 
+---
+
 The content contained herein was compiled by and the my-solutions work completed by [Joseph P. Pasaoa](https://github.com/joseph-p-pasaoa).
