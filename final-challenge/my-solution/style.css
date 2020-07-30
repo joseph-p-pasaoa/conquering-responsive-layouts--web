@@ -10,6 +10,223 @@ Final Challenge | Conquering Responsive Layouts: 21-Day Challenge
     box-sizing: border-box;
 }
 
+ul, ol {
+    list-style-type: none;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover, a:focus {
+    opacity: .65;
+}
+
 img {
     max-width: 100%;
 }
+
+body {
+    font-family: Montserrat, sans-serif;
+    font-size: 1.5rem;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Oswald, sans-serif;
+}
+
+.container,
+.footer__title {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.dark {
+    background-color: #3b4050;
+}
+
+.btn {
+    padding: .25em 1.1em;
+    border-radius: 1.6rem;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    background-color: #a59678;
+    color: #fff;
+}
+
+header {
+    background-color: #2e323f;
+}
+
+header .row {
+    padding: 1.5rem 0 .5rem 0;
+}
+
+nav {
+    /* flex-grow: 1; */
+
+    font-family: Oswald, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+}
+
+nav .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.landing {
+    padding: 6rem 0 10rem 0;
+}
+
+.landing > .container {
+    align-items: flex-end;
+}
+
+.landing .col:first-of-type {
+    /* width: 50%; */
+    margin-right: 5%;
+}
+
+.landing p {
+    margin: 2rem 0;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+h1 {
+    font-size: 5.625rem;
+    line-height: 1;
+    color: #a59678;
+}
+
+h1 span {
+    color: #fff;
+}
+
+.three-points,
+.breakdown,
+footer {
+    padding: 5rem 0;
+}
+
+footer {
+    padding-bottom: 2rem;
+}
+
+.three-points {
+    background-color: #ececec;
+    color: #6f737f;
+    text-align: center;
+}
+
+h3.point {
+    margin-bottom: 1rem;
+
+    font-size: 1.875rem;
+    color: #a59678;
+}
+
+.three-points p {
+    margin-bottom: 1rem;
+    font-size: 1.125rem;
+}
+
+h2.breakdown__title {
+    margin-bottom: 1.5rem;
+
+    font-size: 2rem;
+    color: #a59678;
+}
+
+.breakdown .col:first-of-type p,
+.bars-diagram {
+    margin-bottom: 4rem;
+}
+
+.breakdown .col:first-of-type p {
+    font-size: 1.3125rem;
+    line-height: 1.75;
+    color: #6f737f;
+}
+
+.breakdown__title--dark {
+    margin-bottom: 1.75rem;
+
+    font-size: 1.875rem;
+    color: #fff;
+}
+
+aside.dark {
+    margin-bottom: 1rem;
+    padding: 2rem;
+
+    text-align: center;
+    color: #fff;
+}
+
+aside.dark p {
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+
+.footer__title {
+    margin-bottom: 6rem;
+
+    font-size: 4rem;
+    line-height: 1;
+    color: #fff;
+}
+
+h5.footer__title--divisions {
+    margin-bottom: 1.5rem;
+
+    font-size: 1.3125rem;
+    color: #a59678;
+}
+
+footer p,
+footer ul {
+    margin-bottom: 4rem;
+
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #fff;
+}
+
+footer .col:last-of-type ul {
+    margin-bottom: 0;
+}
+
+.footer__item + .footer__item {
+    margin-top: 1rem;
+}
+
+
+@media (max-width: 399px) {
+    a:link, a:visited {
+        font-size: .8rem;
+    }
+
+    h1 {
+        font-size: 3.625rem;
+    }
+
+    .footer__title {
+        font-size: 3.5rem;
+    }
+}
+
+/* @media (min-width: 600px) {
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav__item + .nav__item {
+        margin-left: 3rem;
+    }
+} */
