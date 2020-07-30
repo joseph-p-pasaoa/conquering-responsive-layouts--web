@@ -290,13 +290,23 @@ footer .col:last-of-type ul {
     }
 }
 
-/* @media (min-width: 600px) {
-    .row {
+@media (min-width: 1000px) {
+    .breakdown .row {
         display: flex;
         justify-content: space-between;
     }
 
-    .nav__item + .nav__item {
-        margin-left: 3rem;
+    .breakdown .col:first-of-type {
+        width: 55%;
+        margin-right: 5%;
     }
-} */
+
+    .asides {
+        display: block;
+        width: 35%;
+    }
+
+    aside + aside {
+        margin-left: 0;
+    }
+}
