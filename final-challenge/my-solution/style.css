@@ -244,6 +244,20 @@ footer .col:last-of-type ul {
         margin-left: 1.5rem;
     }
 
+    .landing > .row,
+    .three-points .row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .landing .col:first-of-type {
+        margin-right: 5%;
+    }
+
+    .three-points .col + .col {
+        margin-left: 2rem;
+    }
+
     .asides {
         display: flex;
         justify-content: space-between;
@@ -259,6 +273,20 @@ footer .col:last-of-type ul {
 
     aside p {
         font-size: 1rem;
+    }
+
+    footer .row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer .col {
+        width: 15%;
+    }
+
+    footer .col:first-of-type {
+        width: 35%;
+        margin-right: 10%;
     }
 }
 
