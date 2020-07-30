@@ -39,6 +39,7 @@ h1, h2, h3, h4, h5 {
 .container,
 .footer__title {
     width: 90%;
+    max-width: 75rem;
     margin: 0 auto;
 }
 
@@ -206,7 +207,7 @@ footer .col:last-of-type ul {
 }
 
 
-@media (max-width: 399px) {
+@media (max-width: 469px) {
     a:link, a:visited {
         font-size: .8rem;
     }
